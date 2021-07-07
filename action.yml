@@ -1,0 +1,8 @@
+name: 'No merge commits check'
+description: 'Checks no merge commits are present in a pull request'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'check-circle'  
+  color: 'gray-dark'
